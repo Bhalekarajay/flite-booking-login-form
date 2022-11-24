@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight booking form design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="booking-form-box">
+        <div class="radio-btn">
+            <input type="radio" class="btn" name="check" checked="checked"><span>Roundtrip</span>
+            <input type="radio" class="btn" name="check"><span>One way</span>
+            <input type="radio" class="btn" name="check"><span>multi-city</span>
+        </div>
+
+
+        <div class="booking-form">
+           <div class="flying form">
+            <label> Flying form </label>
+            <input type="text" class="form-control" placeholder="City or Airport">
+        </div>
+        <br>
+    <div class="flying to">
+            <label> Flying to </label>
+            <input type="text" class="form-control" placeholder="City or Airport">
+        </div>
+            <div class="input-grp-1">
+                <label> Departing </label>
+                <input type="date" class="form-control select-date">
+            </div>
+            <div>
+            <div class="input-grp-2">
+                <label> Returing </label>
+                <input type="date" class="form-control select-date">
+            </div>
+            </div>
+            <div>
+            <div class="input-grp-3">
+                <label> Adults </label>
+                <input type="number" class="form-control" value="1">
+            </div>
+            </div>
+            <div>
+            <div class="input-grp-4">
+                <label> Childern </label>
+                <input type="number" class="form-control" value="0">
+            </div>
+            </div>
+            <br>
+        </div>
+            <div class="input-grp-5">
+                <label> Travel Class </label>
+                <select class="custom-select">
+                    <option value="1">Economy class</option>
+                    <option value="2">Business class</option>
+                </select>
+            </div>
+
+            <div class="input-grp-5">
+                <button type="button" class="btn-primary flight"> Show flight</button>
+
+            </div>
+        
+    </div>
+</body>
+
+</html>
